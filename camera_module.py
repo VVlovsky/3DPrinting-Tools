@@ -2,6 +2,7 @@ import cv2
 import telebot
 import os
 import numpy as np
+import json
 from time import sleep
 
 with open("config.json", "rb") as read_file:
